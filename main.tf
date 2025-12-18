@@ -18,5 +18,6 @@ resource "aws_instance" "Yajnainfra" {
 	instance_type = "t3.micro"
 
 tags = {
-name = "yajna instance"
+name = "yajna new instance"
+}
 }
