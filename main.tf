@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "Yajnashinfra" {
+resource "aws_instance" "Yajnashrinfra" {
 	ami = "ami-0c2b8ca1dad447f8a" 
 	instance_type = "t3.micro"
 }
