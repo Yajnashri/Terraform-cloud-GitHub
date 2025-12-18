@@ -15,5 +15,8 @@ provider "aws" {
 
 resource "aws_instance" "Yajnainfra" {
 	ami = "ami-0c2b8ca1dad447f8a" 
-	instance_type = "t3.nano"
+	instance_type = "t3.micro"
+
+tags = {
+name = "yajna instance"
 }
